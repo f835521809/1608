@@ -25,7 +25,6 @@ html {
 
 .main {
     width: 100%;
-    height: 100%;
 }
 
 .ul {
@@ -50,4 +49,47 @@ html {
 .swiper-slide img {
     width: 100%;
     height: 100%;
+}
+
+.list1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    height: 33px;
+    line-height: 33px;
+    background: #ccc;
+}
+
+.dls ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dls li {
+    width: 49%;
+    height: 100%;
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 1px;
+}
+
+.dls ul li img {
+    width: 100%;
+    height: 200%;
+}
+
+.footer ul {
+    display: flex;
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    background: #ccc;
+    justify-content: space-between;
+}
+
+.footer ul li i {
+    width: 10px;
+    height: 10px;
 }
