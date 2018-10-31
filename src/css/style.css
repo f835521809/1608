@@ -29,10 +29,12 @@ html {
 
 .ul {
     display: flex;
+    white-space: nowrap;
     justify-content: space-between;
 }
 
 .ul li:hover {
+    display: inline-block;
     color: red;
 }
 
